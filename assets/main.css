@@ -1,0 +1,96 @@
+
+/* Written by Albert Ong
+ * 
+ * Created: 2022.07.11
+ */
+
+ @import url("fonts.css");
+
+ html {
+  height: 100%;
+}
+
+body {
+  background: url('images/background.png') no-repeat;
+  background-size: 100% 600px;
+  background-position: 0 100px !important;
+  font-family: Gotham Medium; 
+  color: white; 
+  overflow: auto; 
+  /* margin-left: 50px;
+  margin-right: 50px;  */
+  /* margin-left: 30px; */
+}
+
+h1 {
+  font-family: Gotham Bold;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: Gotham Bold; 
+  font-size: 24px; 
+}
+
+h3 {
+  align: center;
+  color: gray;
+  font-family: Gotham Bold; 
+  font-size: 30px; 
+  margin-top: 250px; 
+  text-align: center; 
+}
+
+h4 {
+  color: gray;
+  font-family: Gotham Bold; 
+  font-size: 20px;
+  margin-top: 10px; 
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  margin-top: 50px; 
+  font-family: Gotham Light;
+  font-size: 20px; 
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.services-image {
+  align: center; 
+  height: 250px; 
+}
+
+.site-logo {
+  height: 50px;
+}
+
+.navbar-nav {
+  color: gray;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-top: 1.4em;
+  margin-left: 30px; 
+  font-size: 30px; 
+   
+}
+
+.navbar-bottom {
+  margin-top: 50px; 
+  margin-left: auto;
+}
+
+.navbar-bottom .navbar-nav {
+  margin-top: 5em;
+}
+
+.nav-item-bottom {
+  margin-left: 30px;
+}
