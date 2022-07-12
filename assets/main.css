@@ -51,6 +51,11 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  color: gray;
+  text-align: left;
+}
+
 .links {
   text-decoration: none;
 }
@@ -64,7 +69,7 @@ a:hover {
 }
 
 p {
-  margin-top: 50px; 
+  margin-top: 40px; 
   font-family: Gotham Light;
   font-size: 20px; 
 }
@@ -114,4 +119,23 @@ p {
 
 .site-logo {
   height: 50px;
+}
+
+.social-media-icon {
+  margin-right: 10px;
+}
+
+.staff-description {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 25px !important; 
+}
+
+.staff-heading {
+  color: black;
+  margin: 0px;
+  margin-bottom: 6px;
+  text-align: left;
+  font-size: 30px;
 }
