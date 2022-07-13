@@ -56,10 +56,6 @@ h5 {
   text-align: left;
 }
 
-.links {
-  text-decoration: none;
-}
-
 a {
   color: rgb(175, 172, 172);
 }
@@ -68,11 +64,20 @@ a:hover {
   color: rgb(48, 48, 48);; 
 }
 
+
 p {
   margin-top: 40px; 
   font-family: Gotham Light;
   font-size: 20px; 
 }
+
+/* .col-sm-1 {
+  .make-sm-column(1);
+}
+
+.col-md-12 {
+  .make-md-column(12);
+} */
 
 .container {
   margin-top: 50px;
@@ -89,7 +94,6 @@ p {
 }
 
 .nav-item {
-  margin-top: 1.4em;
   margin-left: 30px; 
   font-size: 30px; 
 }
@@ -99,18 +103,13 @@ p {
 }
 
 .navbar-bottom {
-  margin-top: 50px; 
   margin-left: auto;
 }
 
 .navbar-bottom .navbar-nav {
   font-size: 14px; 
-  margin-top: 5em;
 }
 
-.nav-item-bottom {
-  margin-left: 30px;
-}
 
 .services-image {
   align: center; 
