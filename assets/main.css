@@ -17,9 +17,6 @@ body {
   font-family: Gotham Medium; 
   color: white; 
   overflow: auto; 
-  /* margin-left: 50px;
-  margin-right: 50px;  */
-  /* margin-left: 30px; */
 }
 
 h1 {
@@ -71,8 +68,39 @@ p {
   font-size: 20px; 
 }
 
-.container {
-  margin-top: 50px;
+.contact-input {
+  color: rgb(45, 45, 45);
+  border: none;
+}
+
+.contact-input-label {
+  font-size: 18px;
+}
+
+.contact-input-message {
+  height: 180px; 
+  overflow-y: scroll; 
+  resize: none;
+}
+
+.contact-input-row {
+  margin-bottom: 8px;
+}
+
+.contact-submit-button {
+  background-color: white;
+  border: none;
+  margin-right: 80px;
+  width: 80px;
+}
+
+.contact-submit-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.main-content {
+  margin-top: 60px;
 }
 
 .navbar {
@@ -81,6 +109,7 @@ p {
 }
 
 .navbar-nav {
+  margin-top: 40px;
   color: rgb(175, 172, 172);
   margin-left: auto;
 }
