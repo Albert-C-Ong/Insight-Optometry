@@ -30,6 +30,11 @@ h2 {
   font-size: 24px; 
 }
 
+.h2-resources {
+  font-family: Gotham Book;
+  font-size: 30px;
+}
+
 h3 {
   align: center;
   color: gray;
@@ -131,6 +136,9 @@ p {
   font-size: 14px; 
 }
 
+.resource-subheadings {
+  margin-top: 30px;
+}
 
 .services-image {
   align: center; 

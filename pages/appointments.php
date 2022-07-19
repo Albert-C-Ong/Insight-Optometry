@@ -29,7 +29,7 @@ Created: 2022.07.14
           APPOINTMENTS
         </li>
         <li class="nav-item">
-          RESOURCES
+          <a class="text-decoration-none" href="resources.html">RESOURCES</a>
         </li>
         <li class="nav-item">
           <a class="text-decoration-none" href="contact.html">CONTACT</a>
