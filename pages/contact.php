@@ -4,6 +4,33 @@ Written by Albert Ong
 Created: 2022.07.13
 -->
 
+<?php
+if (isset($_POST["submit"])) {
+
+  $name = $_POST["name"];
+  $from = $_POST["from"];
+  $subject = $_POST["subject"];
+  $message = $_POST["message"];
+
+  $to = "albert_ong_us@yahoo.com";
+  $sender = "messenger@example.com";
+  $message = "Message from: $name\r\n\r\n$message";
+
+  $header = "From: $sender" . "\r\n" .
+            "Reply-To: $from" . "\r\n" .
+            "X-Mailer: PHP" . phpversion();
+
+  $sent = mail($to, $subject, $message, $header);
+  
+  if ($sent) {
+    echo "<script>alert('Your message has been sent')</script>";
+  }
+  else {
+    echo "<script>alert('There was an error when sending your message')</script>";
+  }
+}
+?>
+
 <html>
 
 <head>
@@ -47,47 +74,49 @@ Created: 2022.07.13
     <div class="col-6">
       <h1 style="font-size: 55px;">WE'D LOVE TO<br>HEAR FROM YOU!</h1>
       
-      <div class="container" style="margin-top: 20px;">
-        <div class="row contact-input-row">
-          <div class="col-md-3  contact-input-label text-end">
-            *name
+      <form method="POST">
+        <div class="container" style="margin-top: 20px;">
+          <div class="row contact-input-row">
+            <div class="col-md-3  contact-input-label text-end">
+              *name
+            </div>
+            <div class="col ">
+              <input class="col-md-10 contact-input rounded" name="name" required>
+            </div>
           </div>
-          <div class="col ">
-            <input class="col-md-10 contact-input rounded" required>
+          <div class="row contact-input-row">
+            <div class="col-md-3 contact-input-label text-end">
+              *email
+            </div>
+            <div class="col">
+              <input class="col-md-10 contact-input rounded" type="email" name="from" required>
+            </div>
+          </div>
+          <div class="row contact-input-row"">
+            <div class="col-md-3 contact-input-label text-end">
+              *subject
+            </div>
+            <div class="col">
+              <input class="col-md-10 contact-input rounded" name="subject" required>
+            </div>
+          </div>
+          <div class="row contact-input-row"">
+            <div class="col-md-3 contact-input-label text-end align-top">
+              message
+            </div>
+            <div class="col">
+              <textarea class="col-md-10 contact-input contact-input-message rounded"  name="message"></textarea>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-md-3">
+            </div>
+            <div class="col text-center">
+              <input class="contact-submit-button rounded" type="submit" value="submit" name="submit">
+            </div>
           </div>
         </div>
-        <div class="row contact-input-row">
-          <div class="col-md-3 contact-input-label text-end">
-            *email
-          </div>
-          <div class="col">
-            <input class="col-md-10 contact-input rounded" type="email" required>
-          </div>
-        </div>
-        <div class="row contact-input-row"">
-          <div class="col-md-3 contact-input-label text-end">
-            *subject
-          </div>
-          <div class="col">
-            <input class="col-md-10 contact-input rounded" required>
-          </div>
-        </div>
-        <div class="row contact-input-row"">
-          <div class="col-md-3 contact-input-label text-end align-top">
-            message
-          </div>
-          <div class="col">
-            <textarea class="col-md-10 contact-input contact-input-message rounded"></textarea>
-          </div>
-        </div>
-        <div class="row" style="margin-top: 20px;">
-          <div class="col-md-3">
-          </div>
-          <div class="col text-center">
-            <input  class="contact-submit-button rounded" type="submit" value="submit">
-          </div>
-        </div>
-      </div>
+      </form>
     </div>
 
     <div class="col-6">
