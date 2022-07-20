@@ -4,7 +4,7 @@
 </p>
 
 ## Overview
-[Company website for Insight Optometry](http://54.148.194.16/Insight-Optometry)
+[www.scottdinhod.com](http://www.scottdinhod.com)
 
 ## Installation
 N/A
@@ -16,6 +16,7 @@ N/A
 **Front-end**
 * HTML
 * CSS
+* [PHP](https://www.php.net/)
 
 **Et Cetera**
 * [Git](https://git-scm.com) // Version Control
