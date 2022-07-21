@@ -43,15 +43,16 @@ if (isset($_POST["submit"])) {
 
 <body>
 
-<nav class="navbar navbar-expand-sm navbar-dark">
+<nav class="navbar navbar-expand-xl navbar-light">
   <div class="container-fluid">
-    <div class="collapse navbar-collapse">
-
-      <a class="navbar-brand" href="homepage.html">
-        <img class="site-logo" src="../assets/images/logo.png" alt="Logo">
-      </a>
-
-      <ul class="navbar-nav">
+    <a class="navbar-brand" href="homepage.html">
+      <img class="site-logo" src="../assets/images/logo.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end bg-white rounded" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a class="text-decoration-none" href="appointments.php">APPOINTMENTS</a>
         </li>
@@ -59,7 +60,7 @@ if (isset($_POST["submit"])) {
           <a class="text-decoration-none" href="resources.html">RESOURCES</a>
         </li>
         <li class="nav-item">
-          CONTACT
+          <a class="text-decoration-none" href="contact.php">CONTACT</a>
         </li>
         <li class="nav-item">
           <a class="text-decoration-none" href="about.html">ABOUT</a>
@@ -67,7 +68,7 @@ if (isset($_POST["submit"])) {
       </ul>
     </div>
   </div>
-</nav> 
+</nav>
 
 <div class="container main-content">
   <div class="row">
