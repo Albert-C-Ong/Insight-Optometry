@@ -49,8 +49,7 @@ h4 {
   color: gray;
   font-family: Gotham Bold; 
   font-size: 20px;
-  margin-top: 10px; 
-  margin-bottom: 30px;
+  margin-top: 1%; 
   text-align: center;
 }
 
@@ -114,6 +113,10 @@ p {
   margin-right: 30px;
 }
 
+.navbar-collapse {
+  z-index: 1;
+}
+
 .navbar-nav {
   color: rgb(175, 172, 172);
   margin: 40px 20px 0px auto;
@@ -160,9 +163,17 @@ p {
   height: 400px;
 }
 
+.services {
+  width: 60%;
+}
+
+.services-col {
+  padding: 1.5%;
+}
+
 .services-image {
   align: center; 
-  height: 250px; 
+  width: 100%;
 }
 
 .site-logo {
