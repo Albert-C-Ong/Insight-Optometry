@@ -159,7 +159,7 @@ Created: 2022.07.14
   </div>
 </div>
 
-<nav class="navbar navbar-default navbar-bottom" style="margin-top: 150px;">
+<nav class="navbar navbar-default navbar-fixed-bottom">
   <ul class="navbar-nav list-group-horizontal">
     <li class="nav-item-bottom" style="margin-top: 10px;">
       <div class="container">
