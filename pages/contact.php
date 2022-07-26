@@ -70,7 +70,8 @@ if (isset($_POST["submit"])) {
   </div>
 </nav>
 
-<div class="container main-content">
+<main>
+<div class="container">
   <div class="row">
     <div class="col-6">
       <h1 style="font-size: 55px;">WE'D LOVE TO<br>HEAR FROM YOU!</h1>
@@ -135,6 +136,7 @@ if (isset($_POST["submit"])) {
     </div>
   </div>
 </div>
+</main>
 
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <ul class="navbar-nav list-group-horizontal">

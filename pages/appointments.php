@@ -43,7 +43,8 @@ Created: 2022.07.14
   </div>
 </nav>
 
-<div class="container main-content">
+<main>
+<div class="container">
   <div class="row">
     <div class="col-6">
       <h1 style="font-size: 55px;">APPOINTMENTS</h1>
@@ -158,6 +159,7 @@ Created: 2022.07.14
     </div>
   </div>
 </div>
+</main>
 
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <ul class="navbar-nav list-group-horizontal">
