@@ -1,0 +1,46 @@
+
+/* Written by Albert Ong
+ * 
+ * Created: 2022.07.26
+ */
+
+@media only screen and (max-width: 1080px) {
+
+  body {
+    background-size: 100% 400px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .h1-contact {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .navbar-fixed-bottom {
+    margin-left: none;
+    text-align: center;
+  }
+
+  .navbar-icon {
+    height: 22px;
+  }
+
+  .nav-item-bottom {
+    font-size: 12px;
+  }
+
+  .staff-description {
+    font-size: 14px;
+  }
+}
