@@ -161,26 +161,6 @@ p {
   color: rgb(48, 48, 48);
 }
 
-.nav-item-bottom .mail-icon-hover, .location-icon-hover {
-  opacity: 0;
-}
-
-.nav-item-bottom:hover .mail-icon {
-  opacity: 0;
-}
-
-.nav-item-bottom:hover .mail-icon-hover {
-  position: relative;
-  top: -25px;
-  opacity: 1;
-}
-
-.nav-item-bottom:hover .location-icon-hover {
-  position: relative;
-  top: -25px;
-  opacity: 1;
-}
-
 .eye-care-link {
   font-size: 20px;
   margin-bottom: 50px;
