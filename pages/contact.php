@@ -125,11 +125,10 @@ if (isset($_POST["submit"])) {
     <div class="col-6">
       <div id="map-container-google-1" class="z-depth-1-half map-container" style="margin-top: 20px;">
         <iframe
-          class="rounded"  
+          class="location-map rounded"  
           src="https://maps.google.com/maps?q=2050 Concourse Drive&t=&z=13&ie=UTF8&iwloc=&output=embed" 
           frameborder="0"
-          width="480px" 
-          height="360px"
+          
           style="border:0" 
           allowfullscreen>
         </iframe>
