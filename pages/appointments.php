@@ -162,13 +162,14 @@ Created: 2022.07.14
 </div>
 </main>
 
-<nav class="navbar navbar-default navbar-fixed-bottom">
+<nav class = "navbar navbar-default navbar-fixed-bottom">
   <ul class="navbar-nav list-group-horizontal">
     <li class="nav-item-bottom" style="margin-top: 10px;">
       <div class="container">
         <div class="row">
             <div class="col-sm-2 text-end">
-              <img src="../assets/images/mail_icon.png" alt="mail" height="25px" />
+              <img class="navbar-icon mail-icon" src="../assets/images/mail_icon.png" alt="mail"/>
+              <img class="navbar-icon mail-icon-hover" class="navbar-icon" src="../assets/images/mail_icon_hover.png" alt="mail hover"/>
             </div>
             <div class="col-md-10 text-start">
               <a class="text-decoration-none" href="mailto:insightoptometry@yahoo.com">insightoptometry@yahoo.com</a>
@@ -180,10 +181,10 @@ Created: 2022.07.14
       <div class="container">
         <div class="row">
             <div class="col-sm-2 text-end align-self-center">
-              <img src="../assets/images/phone_icon.png" alt="phone" height="25px" />
+              <img class="navbar-icon" src="../assets/images/phone_icon.png" alt="phone"/>
             </div>
             <div class="col-md-10 text-start">
-            (408) 945-9277
+              (408) 945-9277
             </div>
         </div>
       </div>
@@ -192,7 +193,7 @@ Created: 2022.07.14
       <div class="container">
         <div class="row">
             <div class="col-sm-2 text-end align-self-center">
-                <img src="../assets/images/time_icon.png" alt="schedule" height="25px" />
+              <img class="navbar-icon" src="../assets/images/time_icon.png" alt="schedule"/>
             </div>
             <div class="col-md-10 text-start">
             Wed-Thu: 9:00 AM - 6:00 PM<br>Sun: 10:00 AM - 4:00 PM
@@ -203,8 +204,9 @@ Created: 2022.07.14
     <li class="nav-item-bottom">
       <div class="container">
         <div class="row">
-            <div class="col-sm-2 text-end align-self-center">
-              <img src="../assets/images/location_icon.png" alt="location" height="25px" />
+            <div class="col-sm-2 text-end align-self-center" style="margin-top: 5px;">
+              <img class="navbar-icon location-icon" src="../assets/images/location_icon.png" alt="location"/>
+              <img class="navbar-icon location-icon-hover" src="../assets/images/location_icon_hover.png" alt="location hover"/>
             </div>
             <div class="col-md-10 text-start">
               <a class="text-decoration-none" href="https://www.google.com/maps?hl=en&q=2050+concourse+drive" target="_blank">2050 Concourse Drive<br>San Jose, CA 95131</a>

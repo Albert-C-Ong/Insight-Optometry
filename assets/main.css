@@ -62,11 +62,11 @@ h5 {
 }
 
 a {
-  color: rgb(175, 172, 172);
+  color: rgb(172, 172, 172);
 }
 
 a:hover {
-  color: rgb(48, 48, 48);; 
+  color: rgb(48, 48, 48);
 }
 
 main {
@@ -121,7 +121,6 @@ p {
 }
 
 .navbar-fixed-bottom {
-  margin-left: auto;
   margin-top: 50px;
 }
 
@@ -130,7 +129,7 @@ p {
 }
 
 .navbar-nav {
-  color: rgb(175, 172, 172);
+  color: rgb(172, 172, 172);
   margin: 40px 20px 0px auto;
 }
 
@@ -151,6 +150,30 @@ p {
 .nav-item-bottom {
   font-size: 14px;
   zoom: 50%;
+}
+
+.nav-item-bottom:hover a {
+  color: rgb(48, 48, 48);
+}
+
+.nav-item-bottom .mail-icon-hover, .location-icon-hover {
+  opacity: 0;
+}
+
+.nav-item-bottom:hover .mail-icon {
+  opacity: 0;
+}
+
+.nav-item-bottom:hover .mail-icon-hover {
+  position: relative;
+  top: -25px;
+  opacity: 1;
+}
+
+.nav-item-bottom:hover .location-icon-hover {
+  position: relative;
+  top: -25px;
+  opacity: 1;
 }
 
 .eye-care-link {
