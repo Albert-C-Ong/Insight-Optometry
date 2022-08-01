@@ -111,6 +111,10 @@ p {
   color: white;
 }
 
+.location-icon, .mail-icon {
+  opacity: 33%;
+}
+
 .location-map {
   height: 360px;
   width: 480px;
@@ -131,11 +135,6 @@ p {
 
 .navbar-fixed-bottom .navbar-nav {
   font-size: 14px; 
-}
-
-.navbar-nav {
-  color: rgb(172, 172, 172);
-  margin: 40px 20px 0px auto;
 }
 
 .navbar-icon {
@@ -159,6 +158,20 @@ p {
 
 .nav-item-bottom:hover a {
   color: rgb(48, 48, 48);
+}
+
+.nav-item-bottom:hover .location-icon {
+  opacity: 81%;
+}
+
+.nav-item-bottom:hover .mail-icon {
+  opacity: 81%;
+}
+
+
+.navbar-nav {
+  color: rgb(172, 172, 172);
+  margin: 40px 20px 0px auto;
 }
 
 .eye-care-link {
